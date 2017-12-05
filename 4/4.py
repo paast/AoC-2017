@@ -36,10 +36,3 @@ for line in open("4.txt", "r"):
 		sum += 1
 
 print(sum)
-
-
-
-
-
-
-
