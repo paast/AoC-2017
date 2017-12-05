@@ -5,7 +5,7 @@ input = [int(x) for x in open("5.txt", "r")]
 
 pos = 0
 i = 0
-while (pos < len(input)):
+while (-1 < pos < len(input)):
 	move = input[pos]
 	input[pos] += 1
 	pos += move
@@ -20,7 +20,7 @@ input = [int(x) for x in open("5.txt", "r")]
 
 pos = 0
 i = 0
-while (pos < len(input)):
+while (-1 < pos < len(input)):
 	move = input[pos]
 	if (input[pos] < 3):
 		input[pos] += 1
