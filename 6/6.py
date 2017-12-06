@@ -18,12 +18,3 @@ while (input not in um):
 
 print('\nTotal Cycles:', it)
 print('\nLoop Cycles:', it - um[input])
-
-
-
-
-
-
-
-
-
