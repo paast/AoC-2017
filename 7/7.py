@@ -1,5 +1,5 @@
 
-# AoC Day 7-1 && Day 7-2
+# AoC Day 7-1 && Day 7-2 [[super messy :S]]
 
 class Node:
 	total_weight = 0
@@ -66,16 +66,3 @@ while (True):
 
 print("Root node // size: " +  root + " // " + str(nodes[root].total_weight))
 print("Node to adjust // proper value: " + iroot + " // " + str(nodes[iroot].weight - d))
-
-	
-
-
-
-
-
-
-
-
-
-
-

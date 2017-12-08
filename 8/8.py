@@ -1,5 +1,5 @@
 
-# AoC Day 8-1
+# AoC Day 8-1 && 8-2
 
 map = {}
 maxs = []
@@ -33,7 +33,6 @@ for line in open("8.txt", "r"):
 		if (map[a] != b): map[tar] += num
 
 	maxs.append(max(map.values()))
-
 
 print("Largest final value:", max(map.values()))
 print("Largest process value:", max(maxs)) 
