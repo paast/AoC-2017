@@ -1,13 +1,10 @@
 
 # AoC Day 9-1 & 9-2
 
-input = open("9.txt", "r").read()
+input = open("9", "r").read()
 
-garbo = False
-skip = False
-sum1 = 0
-sum2 = 0
-lay = 0
+garbo=skip = False
+sum1=sum2=lay = 0
 
 for char in input:
 	if (skip): skip = False; continue
